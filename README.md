@@ -29,11 +29,13 @@ The idea under the Python script is that the movie search on Netflix is performe
 
 Example of using the action:
 
+
 ```yaml
 action: pyscript.netflix_search
 data:
   entity_id: media_player.fire_tv_adb
   text: matrix
+```````
 
 ---
 

@@ -1,0 +1,49 @@
+alias: TV_Search movie on Netflix
+description: ""
+triggers:
+  - trigger: conversation
+    command:
+      - (search|find) {title} on Netflix
+conditions: []
+actions:
+  - variables:
+      title_to_search: "{{ trigger.slots.title | string | trim | lower }}"
+  - action: media_player.select_source
+    metadata: {}
+    data:
+      source: com.netflix.ninja
+    target:
+      entity_id: media_player.fire_tv_adb
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 4
+      milliseconds: 0
+  - action: androidtv.adb_command
+    metadata: {}
+    data:
+      command: UP
+    target:
+      device_id: INPUT YOUR DEVICE_ID
+  - action: androidtv.adb_command
+    metadata: {}
+    data:
+      command: LEFT
+    target:
+      device_id: INPUT YOUR DEVICE_ID
+  - action: androidtv.adb_command
+    metadata: {}
+    data:
+      command: CENTER
+    target:
+      device_id: INPUT YOUR DEVICE_ID
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 2
+      milliseconds: 0
+  - action: pyscript.netflix_search
+    data:
+      entity_id: media_player.fire_tv_adb
+      text: "{{ title_to_search }}"
+mode: single

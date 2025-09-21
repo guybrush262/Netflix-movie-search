@@ -36,6 +36,10 @@ data:
   text: matrix
 
 
-It works considering that the starting position is the lense icon in Netflix.
-5) From here, the following logical step would be to create an automation for voice control that uses this action: before the “pyscript.netflix_search”, you should first add the commands to access the search menu in order to be positioned on the lense icon (this part was not included in the Python script because could be subject to changes).
-   As example you can use "TV_Search movie on Netflix" automation, being aware that I didn't test yet since I don't have a vocala ssistant yet.
+## Next Steps
+
+To create a full voice-controlled automation:
+1) Add commands to navigate to the search menu first, to position the cursor on the lens icon.
+2) Then call the pyscript.netflix_search action with your movie title.
+
+You can find my example: "TV_Search movie on Netflix" automation, but note that I didn't test the automation yet since I don't currently have a voice assistant.

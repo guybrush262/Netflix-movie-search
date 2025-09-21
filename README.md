@@ -11,7 +11,7 @@ This repository contains a Python script to automate movie search on Netflix via
 
 ## How It Works
 
-The idea under the Python script is that the movie search on Netflix is performed through a grid, and so it is possible assigning a position to every letter/number. The starting position is the **lens icon** in Netflix.
+The idea under the Python script is that the movie search on Netflix is performed through a grid, and so it is possible assigning a position to every letter/number. The starting position is the **lens icon** on the top of the grid in Netflix.
 
 <img src="https://github.com/user-attachments/assets/b2c30fa5-d06e-4e09-b851-015ca1dfa9df" width="400"/>
 

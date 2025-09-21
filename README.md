@@ -7,7 +7,8 @@ Prerequisites:
 - pyscript installed (from HACS)
 
 The idea of the Python script is that the movie search on Netflix is a grid and so we can assign a position to every letter/number.
-[![Netflix Search Grid](https://github.com/user-attachments/assets/b2c30fa5-d06e-4e09-b851-015ca1dfa9df)](https://github.com/user-attachments/assets/b2c30fa5-d06e-4e09-b851-015ca1dfa9df)
+<img src="https://github.com/user-attachments/assets/b2c30fa5-d06e-4e09-b851-015ca1dfa9df" width="400"/>
+
 
 1) In config/pyscript/ add “netflix_search.py”.
 2) Restart Home Assistant

@@ -1,6 +1,6 @@
 # Netflix movie search
 
-Automate movie search on Netflix in Home Assistant via Python script. I am using an Amazon Fire TV (through Android Debug Bridge), but the Python script should also work with native TV integrations (e.g. LG WebOS TV) with some minor fixes.
+Automate movie search on Netflix in Home Assistant via Python script. I am using an Amazon Fire TV (through Android Debug Bridge), but the Python script should also work with native TV integrations (e.g. LG WebOS TV) with some minor fixes (as well as be adapted to Amazon Prime Video or Disney+).
 
 ## Prerequisites
 

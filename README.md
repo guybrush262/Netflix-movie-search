@@ -35,6 +35,7 @@ data:
   entity_id: media_player.fire_tv_adb
   text: matrix
 
+---
 
 ## Next Steps
 

@@ -42,7 +42,7 @@ data:
 ## Next Steps
 
 To create a full voice-controlled automation:
-1) Add commands to navigate to the search menu first, to position the cursor on the lens icon.
+1) Add commands to navigate to the search menu in order to position the cursor on the lens icon in the search menu.
 2) Then call the pyscript.netflix_search action with your movie title.
 
 You can find my example: "TV_Search movie on Netflix" automation, but note that I didn't test the automation yet since I don't currently have a voice assistant.
